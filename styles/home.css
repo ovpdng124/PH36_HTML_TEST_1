@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+body{
+	width: 50%;
+	height: 750px;
+	margin: 20px auto;
+}
+
+/* HEADER  */
+header{
+	width: 100%;
+	height: 90px;
+	background-color: #EEEEEE;
+}
+
+/* HEADER LOGO */
+
+header #header_left{
+	width: 50%;
+	height: 100%;
+	float: left;
+	/*background-color: yellow;*/
+}
+
+/* HEADER MENU LIST */
+
+header #header_right{
+	width: 50%;
+	height: 100%;
+	float: left;
+	/*background-color: green;*/
+}
+header ul{
+	list-style-type: none;
+	float: right;
+}
+header ul li{
+	display: inline-block;
+	padding-top: .7em;
+	margin-left: .2em;
+	font-size: 80%;
+}
+header a{
+	text-decoration: none;
+	padding: .7em 1em;
+	color: #428BCA;
+}
+header a:hover{
+	background-color: #428BCA;
+	border-radius: 3px;
+	color: white;
+}
+
+/* MAIN */
+
+main{
+	clear: both;
+	width: 100%;
+
+}
+
+/* MAIN CONTENT */
+
+main #main_top{
+	width: 100%;
+	height: 350px;
+	margin-top: 20px;
+	background-color: #EEEEEE;
+	border-radius: 5px;
+}
+
+main #main_top_content{
+	width: 65%;
+	margin: 20px auto auto auto;
+	padding: 60px 20px 20px 20px;
+}
+
+main #main_top h1{
+	font-size: 300%;
+	text-align: center;
+	padding: 5px 0;
+	font-weight: initial;
+}
+main #main_top p{
+	font-size: 110%;
+	text-align: center;
+}
+
+main #main_top_button{
+	width: 60%;
+	margin: 0 auto;
+}
+main #main_top button{
+	width: 40%;
+	margin-left: 30%;
+	text-align: center;
+	padding: 20px 0;
+	background-color: #5CB85C;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 140%;
+}
+main button:hover{
+	background-color: #73B831
+}
+
+main #main_bottom{
+	width: 98%;
+	margin: 50px auto;
+}
+
+main #main_bottom_left{
+	width: 48%;
+	float: left;
+}
+main #main_bottom_right{
+	width: 48%;
+	float: right;
+}
+
+main #main_bottom ul{
+	list-style-type: none;
+}
+main #main_bottom ul li{
+	padding-bottom: 20px;
+}
+main #main_bottom p{
+	font-size: 80%;
+}
+
+main #main_bottom h3{
+	font-weight: initial;
+	padding-bottom: 3px;
+}
+
+/* FOOTER */
+
+footer{
+	clear: both;
+	width: 100%;
+	height: 100px;
+	border-top: 1px solid #DADADA;
+
+}
+
+footer #footer_left{
+	float: left;
+	margin: 20px 20px;
+	color: #B9B9B9;
+}
+footer #footer_right{
+	float: right;
+	margin-right: 20%;
+	margin-top: 20px;
+}
